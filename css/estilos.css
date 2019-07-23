@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+}
+
+.Cont{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    border:solid;
+}
+.Cont-izquierdo{
+    /* border: solid; */
+    /* width: 40%; */
+    width: 500px;
+    /* margin-right: 20px; */
+}
+
+.Cont-form{
+    /* border:solid; */
+    display: flex;
+    flex-direction: column;
+}
+
+.Cont-textArea{
+    height:200px;
+    
+}
+.Cont-boton{
+    margin-top:10px;
+    padding: 10px;
+}
+
+.Cont-derecho{
+    width: 40%;
+}
